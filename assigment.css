@@ -1,3 +1,19 @@
 h1{
-    color: blueviolet;
+    color: rgb(14, 221, 159);
+}
+body{
+    background-color: rgb(228, 238, 245);
+    border: 12px;
+    border-color: blueviolet;
+}
+.Description{
+    text-align: justify;
+    font-size: medium;
+    text-decoration: aqua;
+    }
+h2{
+    text-align: justify;
+    font-size: medium;
+   color: rgb(170, 163, 125);
+
 }
