@@ -3,8 +3,10 @@ h1{
 }
 body{
     background-color: rgb(228, 238, 245);
-    border: 12px;
-    border-color: blueviolet;
+    border: 12px, 1pax solid black;
+
+    padding: auto;
+    
 }
 .Description{
     text-align: justify;
@@ -17,3 +19,15 @@ h2{
    color: rgb(170, 163, 125);
 
 }
+table, th, td {
+    border: 1px rgb(228, 238, 245);
+    border-collapse: collapse;
+    
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+table{
+      margin-top: 40px;
+     
+  }
