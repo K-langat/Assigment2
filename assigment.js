@@ -1,29 +1,34 @@
+function getname(){
+var date = document.getElementbyid("date");
+var gender = document.getElementbyid("gender");
 
-function week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+var date = newdate.document.getElementbyid("date").value;
+var weekdate = date.getDay();
+var weekday = ["sunday","monday","Tuesday","Wednesday","Thursday","Friday", "Saturday"];
+var day =weekday[weekdate];
+var malename = ["Kwasi"," Kwandwo","Kwaabena"," Kwaku","Yaw","Kofi","Kwame"];
+var namefemale = ["Akosua"," Adwoa","Abena", "Akua","Yaa","Afua","Ama"];
+var check = false
 
-var nameMale = weekdate
-sunday = "Kwasi";
-monday = " Kwandwo";
-Tuesday = "Kwaabena"
-wednesday = " Kwaku"
-Thursday = "Yaw";
-Friday ="Kofi"
-Saturday ="Kwame"
+var resultName = newdate.document.getElementbyid("submit")
 
-var nameFemale = weekdate;
-sunday = "Akosua";
-monday = " Adwoa";
-Tuesday = "Abena"
-wednesday = "Akua"
-Thursday = "Yaa";
-Friday ="Afua"
-Saturday ="Ama"
-
-if (gender == male){
-    return
+if (document.getElementbyid("date").value ==""){
+    wrongdate.innerHTML = "Please enter a correct date";
+    return check;
     }
-    else {
-        prompt("other");
-    return nameMale;
 
-}
+    if (gender.value == "male"){
+        result.innerHTML = " Your where born in" +day + " " + "Your name is " + malename[weekdate];
+    
+    }
+
+        else{
+            return check;
+        }
+    
+    if (gender.value == "female"){
+        resultName.innerHTML = " Your where born in" +day + " " + "Your name is " + namefemale[weekdate];
+    }
+    else{
+        return false;
+
