@@ -5,10 +5,19 @@ function week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) 
 
 var nameMale = weekdate
 sunday = "Kwasi";
-monday = " Kwabena";
+monday = " Kwandwo";
+Tuesday = "Kwaabena"
 wednesday = " Kwaku"
 Thursday = "Yaw";
 Friday ="Kofi"
 Saturday ="Kwame"
 
+Var nameFemale = weekdate;
 
+sunday = "Akosua";
+monday = " Adwoa";
+Tuesday = "Abena"
+wednesday = "Akua"
+Thursday = "Yaa";
+Friday ="Afua"
+Saturday ="Ama"
