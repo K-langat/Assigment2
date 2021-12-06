@@ -20,7 +20,7 @@ h2{
 
 }
 table, th, td {
-    border: 1px rgb(228, 238, 245);
+    border: 1px solid white;
     border-collapse: collapse;
     
   }
@@ -30,4 +30,13 @@ table, th, td {
 table{
       margin-top: 40px;
      
+  }
+  h2{
+      font-size: 9pax;
+  }
+  .submit{
+    margin-top: 4px;
+  }
+  h4{
+      color: rgb(26, 211, 20);
   }
